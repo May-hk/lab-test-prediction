@@ -122,5 +122,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 - The analysis is **exploratory**. Correlation does not imply causation.
 - Rows with missing values were dropped rather than imputed, which may bias results.
 - The baseline is a simple linear model; nonlinear models (e.g. random forest, gradient boosting) or regularised regression could be tried.
-- Only Hb and Hct were analysed in depth; other lab tests could be examined the same way.
-- Outliers were inspected visually but not removed.
+- Only Hb and Hct were analysed in depth with basline model.
+- Outliers were inspected visually but not removed as there are too many.
